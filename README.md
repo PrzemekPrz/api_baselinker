@@ -1,6 +1,7 @@
 Simple python script that gets baselinker invoices to data json
 
 - Enter the date format UNIX
+- Enter your token
 - Run script
 
 First of all the baselinker api has a limit of 100 requests, so the idea that the script will be refreshed every 10 seconds.
