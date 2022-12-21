@@ -7,7 +7,7 @@ unix = []
 first_day = #Enter the date format UNIX
 last_day = #Enter the date format UNIX
 
-while first_day != last_day:
+while first_day <= last_day:
     unix.append(first_day)
     first_day = first_day + 7200 #(2h)
 
